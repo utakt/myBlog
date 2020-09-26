@@ -2,7 +2,10 @@ FROM node:lts-slim
 
 WORKDIR /usr/src/app
 
-RUN npm install -g create-nuxt-app
+COPY ./src/package.json .
+COPY ./src/package-lock.json .
+
+RUN npm install
 
 EXPOSE 3000
 
