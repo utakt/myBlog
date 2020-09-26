@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        my-app
+        my-app test
       </h1>
       <div class="links">
         <a
